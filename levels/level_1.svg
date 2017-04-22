@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <title>
+    1 Small Step
+  </title>
+  <ellipse id="sun-1" class="sun" cx="600" cy="600" rx="40.789" ry="40.789" fill="#fff"/>
+  <ellipse id="planet-1" class="planet" cx="983.148" cy="440.14" rx="30.95" ry="30.95" fill="#fff"/>
+  <ellipse id="planet-2" class="planet" cx="504.961" cy="446.08" rx="19.95" ry="19.95" fill="#fff"/>
+  <ellipse id="planet-3" class="planet" cx="240.418" cy="872.533" rx="26.95" ry="26.95" fill="#fff"/>
+  <ellipse id="planet-4" class="planet" cx="600" cy="1143.715" rx="22.95" ry="22.95" fill="#fff"/>
+  <rect id="player-1" class="player" width="39.9" height="39.9" x="580.05" y="1080.329" fill="#ff724f"/>
+</svg>

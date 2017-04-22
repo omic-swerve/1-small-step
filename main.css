@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    overflow: hidden;
+}
+div, svg, object {
+    display: inline-block;
+    height: 100%;
+    width:100%;
+}
+
+#overflow-wrapper {
+    position: fixed;
+    overflow: hidden;
+}
+
+.vie {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+@media all and (orientation:portrait) {
+    .vie-ful {
+        width: 100vh;
+        height: 100vh;
+        left: calc(100vw/2 - 100vh/2);
+    }
+    .vie-fil {
+        width: 100vw;
+        height: 100vh;
+    }
+    .vie-fit {
+        width: 100vw;
+        height: 100vw;
+        top: calc(100vh/2 - 100vw/2);
+    }
+}
+@media all and (orientation:landscape) {
+    .vie-ful {
+        width: 100vw;
+        height: 100vw;
+        top: calc(100vh/2 - 100vw/2);
+    }
+    .vie-fil {
+        width: 100vw;
+        height: 100vh;
+    }
+    .vie-fit {
+        width: 100vh;
+        height: 100vh;
+        left: calc(100vw/2 - 100vh/2);
+    }
+}
