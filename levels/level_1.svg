@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" id="stage">
   <title>
     1 Small Step
   </title>
-  <ellipse id="sun-1" class="sun" cx="600" cy="600" rx="40.789" ry="40.789" fill="#fff"/>
-  <ellipse id="planet-1" class="planet" cx="983.148" cy="440.14" rx="30.95" ry="30.95" fill="#fff"/>
-  <ellipse id="planet-2" class="planet" cx="504.961" cy="446.08" rx="19.95" ry="19.95" fill="#fff"/>
-  <ellipse id="planet-3" class="planet" cx="240.418" cy="872.533" rx="26.95" ry="26.95" fill="#fff"/>
-  <ellipse id="planet-4" class="planet" cx="600" cy="1143.715" rx="22.95" ry="22.95" fill="#fff"/>
-  <rect id="player-1" class="player" width="39.9" height="39.9" x="580.05" y="1080.329" fill="#ff724f"/>
+  <circle class="sun" cx="600" cy="600" r="54" fill="none" stroke="#fd4" stroke-width="12"/>
+  <path class="star" d="M639.066 590.412l-19.83 17.4 3.094 26.198-22.676-13.48-23.96 11.036 5.814-25.73-17.902-19.38 26.27-2.42 12.897-23.014 10.42 24.235z" transform="matrix(1.1132 0 0 1.11347 -69.403 -65.32)" fill="none" stroke="#fd4" stroke-width="6" stroke-linejoin="round" stroke-dashoffset="40"/>
+  <circle class="planet" cx="860.778" cy="466.498" r="30.95" fill="#fff" speed="2"/>
+  <circle class="planet" cx="504.961" cy="486.08" r="19.95" fill="#fff" speed="-1.2"/>
+  <circle class="planet" cx="280.418" cy="872.533" r="26.95" fill="#fff" speed="-.9"/>
+  <circle class="planet" cx="600" cy="1143.715" r="22.95" fill="#fff" speed="-1.4"/>
+  <circle class="player" cx="594" cy="1108.229" r="6" fill="#ff724f"/>
 </svg>
